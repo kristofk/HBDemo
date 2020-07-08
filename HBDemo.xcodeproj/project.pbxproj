@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3DBF4D6D24B4D04900B19E58 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF4D6C24B4D04900B19E58 /* main.swift */; };
-		3DBF4D7424B4D30000B19E58 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF4D7324B4D30000B19E58 /* Makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +25,6 @@
 /* Begin PBXFileReference section */
 		3DBF4D6924B4D04900B19E58 /* HBDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HBDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DBF4D6C24B4D04900B19E58 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		3DBF4D7324B4D30000B19E58 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				3DBF4D6C24B4D04900B19E58 /* main.swift */,
-				3DBF4D7324B4D30000B19E58 /* Makefile */,
 			);
 			path = HBDemo;
 			sourceTree = "<group>";
@@ -123,7 +120,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DBF4D7424B4D30000B19E58 /* Makefile in Sources */,
 				3DBF4D6D24B4D04900B19E58 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

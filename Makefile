@@ -4,9 +4,9 @@ all: build install clean
 
 build:
 	@echo "Building..."
-	@swiftc main.swift -o helloswift
+	@swiftc HBDemo/main.swift -o helloswift
 	
-install:
+install: build
 	@echo "Installing..."
 	@install "./helloswift" "/usr/local/bin"
 	
