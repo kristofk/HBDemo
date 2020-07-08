@@ -4,16 +4,16 @@ all: build install clean
 
 build:
 	@echo "Building..."
-	@swiftc HBDemo/main.swift -o helloswift
+	@swiftc main.swift -o hbdemo
 
 install: build
 	@echo "Installing..."
-	@install "./helloswift" "/usr/local/bin"
+	@install "./hbdemo" "/usr/local/bin"
 
 uninstall:
 	@echo "Uninstalling..."
-	@rm -rf "/usr/local/bin/helloswift"
+	@rm -rf "/usr/local/bin/hbdemo"
 
 clean:
 	@echo "Cleaning..."
-	@rm -rf helloswift
+	@rm -rf hbdemo
